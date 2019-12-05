@@ -69,7 +69,7 @@ body > header {
   overflow: auto;
   /* use overscroll-behavior-y to stop page scrolling behind the chatbox,
   when the chatbox's scroll limits are reached */
-  overscroll-behavior-y: contain;
+  overscroll-behavior: contain !important;
 }
 
 .messages p {
